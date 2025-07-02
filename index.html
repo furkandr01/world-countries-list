@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>30DaysOfJavaScript:11 Day </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>   
+        <div class="header-wrapper"> 
+            <h1>WORLD COUNTRIES LIST</h1>
+            <div class="info-wrapper">
+                <h4>Total Number of Countries: <span id="total-countries">193</span></h4>
+                <!-- <h4 class="info-start-letter" style="display: none;">Countries start with letter <span style="color: red;">A</span> : <span id="info-start-letter">1</span></h4>
+                <h4 class="info-contain-letter" style="display: none;">Countries containing <span style="color:purple;">A</span> are <span id="info-contain-letter">1</span></h4> -->
+            </div>
+            <div class="button-wrapper">
+                <button class="start-button" id="btn">Starting Word</button>
+                <button class="search-button">Searching With Any Word</button>
+                <button class="az-button">
+                    <i class="bi bi-sort-alpha-down"></i>
+                    <i style="display: none;" class="bi bi-sort-alpha-down-alt"></i>
+                </button>
+            </div>
+            <div class="search-wrapper">
+                <input style="text-align: center;" type="text" id="search-input" placeholder="Search country...">
+                <button id="bi" class="bi bi-search" style="color: #fff; background-color: transparent; border: none; cursor: pointer;"></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cards-wrapper">
+            <ul class="cards-list">
+            </ul>
+        </div>
+    </main>
+
+	<script src="./data/countries.js"></script>
+	<script src="./scripts/main.js"></script>
+
+</body>
+
+</html>

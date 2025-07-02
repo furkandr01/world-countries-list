@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/globe-2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.bg-image{
+    position: absolute;
+    z-index: -1;
+}
+
+.bg-image img{
+    width: 100%;
+    height: 40%;
+}
+
+.start-button{
+    background-color: #8156DA;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.start-button:focus {
+    background-color: #2d1d4c;
+}
+
+
+.search-button{
+    background-color: #8156DA;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.search-button:focus {
+    background-color: #2d1d4c;
+}
+
+.az-button{
+    background-color: #8156DA;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.az-button:focus {
+    background-color: #2d1d4c;
+}
+
+#search-input{
+    padding:8px 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid #8156DA;
+}
+
+.search-wrapper .bi-search{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+h1{
+    color: #fff;
+    font-size: 500%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/map_image.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.cards-list{
+    margin: 40px ;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.info-wrapper{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
